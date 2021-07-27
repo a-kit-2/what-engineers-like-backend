@@ -36,5 +36,8 @@ module WhatEngineersLikeBackend
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    # クロスサイトでの通信でCookieの送信を制御します。
+    config.action_dispatch.cookies_same_site_protection = :none
   end
 end

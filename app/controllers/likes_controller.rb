@@ -23,7 +23,7 @@ class LikesController < ApplicationController
     if @likes
       render json: {show_likes: true, likes: @likes}
     else
-      render json: {show_likes: false}
+      render json: {show_likes: false, likes: @likes}
     end
   end
 

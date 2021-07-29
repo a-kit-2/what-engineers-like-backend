@@ -50,6 +50,5 @@ test:
 #
 production:
   <<: *default
-  database: what_engineers_like_backend_production
-  username: what_engineers_like_backend
-  password: <%= ENV['WHAT_ENGINEERS_LIKE_BACKEND_DATABASE_PASSWORD'] %>
+  # herokuの環境変数をmysqlからmysql2に変更しなければエラーが出ます。
+  url: <%= ENV['CLEARDB_DATABASE_URL'] %>

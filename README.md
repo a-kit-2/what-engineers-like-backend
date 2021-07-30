@@ -12,7 +12,7 @@
 
 [アプリケーション](https://what-engineers-like.herokuapp.com/)
 
-[バックエンド](https://github.com/a-kit-2/what-engineers-like-backend)
+[フロントエンド](https://github.com/a-kit-2/what-engineers-like-frontend)
 
 # 利用方法
 

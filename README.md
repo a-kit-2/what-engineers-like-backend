@@ -11,9 +11,9 @@
 
 # URL
 
-[アプリケーション](https://what-engineers-like.herokuapp.com/)
+アプリケーション： https://what-engineers-like.herokuapp.com
 
-[フロントエンド](https://github.com/a-kit-2/what-engineers-like-frontend)
+フロントエンド： https://github.com/a-kit-2/what-engineers-like-frontend
 
 # 利用方法
 
